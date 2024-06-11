@@ -1,0 +1,84 @@
+Request method:	POST
+Request URI:	https://o365securityaudit.dev.appriver.corp/api/v1/disableRestoreAllTransportRules
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjNFRTkzMkM5MTIwRDk1RTZFODQzOTBBQTRGRkUzREQ4MTgwNzYzNEEiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJQdWt5eVJJTmxlYm9RNUNxVF80OTJCZ0hZMG8ifQ.eyJuYmYiOjE3MTcxNzE0ODYsImV4cCI6MTcxNzI1Nzg4NiwiaXNzIjoiaHR0cHM6Ly9zdGFmZmFjY291bnQuZGV2LmFwcHJpdmVyLmNvcnAvaWRlbnRpdHkiLCJhdWQiOlsiaHR0cHM6Ly9zdGFmZmFjY291bnQuZGV2LmFwcHJpdmVyLmNvcnAvaWRlbnRpdHkvcmVzb3VyY2VzIiwiU3RhZmZBcGlDbGFpbXMiXSwiY2xpZW50X2lkIjoiYXBwcml2ZXJJbnRlcm5hbFN3YWdnZXIiLCJzdWIiOiJsaWtpdGhhcEBvcGVudGV4dGNvcnBvcmF0aW9uLm1haWwub25taWNyb3NvZnQuY29tIiwiYXV0aF90aW1lIjoxNzE3MTcxNDg2LCJpZHAiOiJBY3RpdmVEaXJlY3RvcnkiLCJDdXN0b21lcklEIjoiMTAwMDIiLCJlbWFpbCI6Imxpa2l0aGFwQG9wZW50ZXh0Y29ycG9yYXRpb24ubWFpbC5vbm1pY3Jvc29mdC5jb20iLCJyb2xlIjpbIlNUQUZGX1BSSUNJTkdfQURNSU4iLCJTVEFGRl9TQUxFUyIsIlNUQUZGX0JJTExJTkciLCJTVEFGRl9ERVZFTE9QRVIiLCJTVEFGRl9IT1NUSU5HIiwiU1RBRkZfU1VQUE9SVCIsIlNUQUZGX1VTRVIiXSwic2NvcGUiOlsiU3RhZmZBcGlDbGFpbXMiXSwiYW1yIjpbImV4dGVybmFsIl19.Y7rA8Rpea5PCQ61t6aT1Y_5zVDDGSWj_E0GqHaqM6xd8g-7RZEKXbKFNayoPmhXohYJnosxI1RD095CeYEPRyunDSRP1_DZIKnVSuEugCZy1CEMd2ZtcJrH9niSshvF2mafy2sbC5gtFnft0mivjV9qngjtoQS1GL1uPNBYsUCQE8hRKQZpcgQgcUd99h1gn8ycn3lRi3Y2x3U7lJvYXOW_J9dlsrLX1U-buoV7OXdN5mgQxt2xi-8_JFyGxe1Y0YNChcIoqenhX2iT9L77ZhHGRWEOV3DF0k-I29tqVub-FTbeO4c4fGJySHbyRPZi7Hjn9QQBZhQUALYZK7E3JAg
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "data": {
+        "type": "disableRestoreAllTransportRules",
+        "attributes": {
+            "operation": "Disable",
+            "requestor": "abalila@appriver.com",
+            "requestId": "7c065850-1a1c-43de-8d9a-95bf85eb2e32"
+        }
+    }
+}
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Content-Type: application/vnd.api+json
+Server: Kestrel
+X-Powered-By: ASP.NET
+Date: Fri, 31 May 2024 16:54:41 GMT
+
+{
+    "data": {
+        "attributes": {
+            "operation": 0,
+            "requestor": "likithap@opentextcorporation.mail.onmicrosoft.com",
+            "requestId": "7c065850-1a1c-43de-8d9a-95bf85eb2e32",
+            "status": "Pending",
+            "startTimestamp": "2024-05-31T16:54:41.835369Z",
+            "completedTimestamp": "0001-01-01T00:00:00",
+            "errors": [
+                
+            ]
+        },
+        "type": "disableRestoreAllTransportRules",
+        "id": "352d045b-9444-49bf-9e29-8e97da6bb81a"
+    }
+}
+Request method:	GET
+Request URI:	https://o365securityaudit.dev.appriver.corp/api/v1/disableRestoreAllTransportRules/352d045b-9444-49bf-9e29-8e97da6bb81a
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjNFRTkzMkM5MTIwRDk1RTZFODQzOTBBQTRGRkUzREQ4MTgwNzYzNEEiLCJ0eXAiOiJKV1QiLCJ4NXQiOiJQdWt5eVJJTmxlYm9RNUNxVF80OTJCZ0hZMG8ifQ.eyJuYmYiOjE3MTcxNzE0ODYsImV4cCI6MTcxNzI1Nzg4NiwiaXNzIjoiaHR0cHM6Ly9zdGFmZmFjY291bnQuZGV2LmFwcHJpdmVyLmNvcnAvaWRlbnRpdHkiLCJhdWQiOlsiaHR0cHM6Ly9zdGFmZmFjY291bnQuZGV2LmFwcHJpdmVyLmNvcnAvaWRlbnRpdHkvcmVzb3VyY2VzIiwiU3RhZmZBcGlDbGFpbXMiXSwiY2xpZW50X2lkIjoiYXBwcml2ZXJJbnRlcm5hbFN3YWdnZXIiLCJzdWIiOiJsaWtpdGhhcEBvcGVudGV4dGNvcnBvcmF0aW9uLm1haWwub25taWNyb3NvZnQuY29tIiwiYXV0aF90aW1lIjoxNzE3MTcxNDg2LCJpZHAiOiJBY3RpdmVEaXJlY3RvcnkiLCJDdXN0b21lcklEIjoiMTAwMDIiLCJlbWFpbCI6Imxpa2l0aGFwQG9wZW50ZXh0Y29ycG9yYXRpb24ubWFpbC5vbm1pY3Jvc29mdC5jb20iLCJyb2xlIjpbIlNUQUZGX1BSSUNJTkdfQURNSU4iLCJTVEFGRl9TQUxFUyIsIlNUQUZGX0JJTExJTkciLCJTVEFGRl9ERVZFTE9QRVIiLCJTVEFGRl9IT1NUSU5HIiwiU1RBRkZfU1VQUE9SVCIsIlNUQUZGX1VTRVIiXSwic2NvcGUiOlsiU3RhZmZBcGlDbGFpbXMiXSwiYW1yIjpbImV4dGVybmFsIl19.Y7rA8Rpea5PCQ61t6aT1Y_5zVDDGSWj_E0GqHaqM6xd8g-7RZEKXbKFNayoPmhXohYJnosxI1RD095CeYEPRyunDSRP1_DZIKnVSuEugCZy1CEMd2ZtcJrH9niSshvF2mafy2sbC5gtFnft0mivjV9qngjtoQS1GL1uPNBYsUCQE8hRKQZpcgQgcUd99h1gn8ycn3lRi3Y2x3U7lJvYXOW_J9dlsrLX1U-buoV7OXdN5mgQxt2xi-8_JFyGxe1Y0YNChcIoqenhX2iT9L77ZhHGRWEOV3DF0k-I29tqVub-FTbeO4c4fGJySHbyRPZi7Hjn9QQBZhQUALYZK7E3JAg
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Content-Type: application/vnd.api+json
+Server: Kestrel
+X-Powered-By: ASP.NET
+Date: Fri, 31 May 2024 16:54:43 GMT
+
+{
+    "data": {
+        "attributes": {
+            "operation": 0,
+            "requestor": "likithap@opentextcorporation.mail.onmicrosoft.com",
+            "requestId": "7c065850-1a1c-43de-8d9a-95bf85eb2e32",
+            "status": "Processing",
+            "startTimestamp": "2024-05-31T16:54:41.835Z",
+            "completedTimestamp": "0001-01-01T00:00:00Z",
+            "errors": [
+                
+            ]
+        },
+        "type": "disableRestoreAllTransportRules",
+        "id": "352d045b-9444-49bf-9e29-8e97da6bb81a"
+    }
+}
