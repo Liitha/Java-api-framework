@@ -10,7 +10,7 @@ public class Hooks {
 	public void beforeScenario() throws IOException
 	{		//execute this code only when place id is null
 		//write a code that will give you place id
-		
+		System.out.println("this is hooks")
 		StepDefination m =new StepDefination();
 		if(StepDefination.place_id==null)
 		{
