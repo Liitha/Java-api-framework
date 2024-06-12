@@ -20,6 +20,10 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -27,6 +31,15 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/likithap/Learnings/Git/Java-api-framework&quot;
 =======
     &quot;last_opened_file_path&quot;: &quot;C:/Users/likithap/Learnings/APIFramework&quot;
+<<<<<<< HEAD
+>>>>>>> master
+=======
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/likithap/Learnings/Git/Java-api-framework"
+>>>>>>> cf0d5a0d72b2036d192d910e574e827debf5f8b5
 >>>>>>> master
   }
 }</component>
