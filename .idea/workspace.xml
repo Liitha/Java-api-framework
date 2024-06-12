@@ -23,7 +23,11 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+<<<<<<< HEAD
     &quot;last_opened_file_path&quot;: &quot;C:/Users/likithap/Learnings/Git/Java-api-framework&quot;
+=======
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/likithap/Learnings/APIFramework&quot;
+>>>>>>> master
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
